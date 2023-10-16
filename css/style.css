@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  display: flex;
+  border-color: white;
+  height: 70px;
+}
+.contai {
+  display: flex;
+  color: white;
+  background-color: black;
+  width: 100%;
+  gap: 5;
+  font-size: 20px;
+  padding: 30px 10px;
+}
+.icons{
+padding: 0 5px;
+
+}
+.icons:hover{
+color: red;
+transition: 0.2ms;
+}
+.containerr {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 20px 5px 0 50%;
+}
+.containerr > button > a {
+  color: white;
+}
+.btn {
+  text-align: center;
+  height: 70%;
+  width: 350px;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: red;
+  color: white;
+  transition: 0.3s;
+  font-weight: bold;
+  font-style: italic;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.scorpion-1 {
+  display: flex;
+  margin: auto;
+}
+.scorpion-2 > a {
+  
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}
+.scorpion-2 {
+  padding-top: 23px;
+  padding-right: 10px;
+}
+.scorpion-2 > a {
+  transition: 0.3s;
+}
+.scorpion-2 > a:hover {
+  color: red;
+}
+
+.red {
+  color: red;
+  text-decoration: none;
+}
+.scorpion {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-image: url(../img/hoja-rasgada.png);
+  background-size: 100% 100%;
+  position: sticky;
+  top: 0;
+}
+.believer {
+  width: 100%;
+  height: 50%;
+  background-color: black;
+}
+.believer > img {
+  width: 100%;
+  height: 100%;
+}
+.rasgueado{
+  background-image: url(../img/rasgueado.png);
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+}
+
+.container-21 {
+  background-image: url(../img/face.jpg);
+  background-size: 100%;
+  background-clip: content-box;
+}
+.titulos{
+  font-style: italic;
+  font-weight: bold;
+}
+.noticias {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 30px;
+}
+.news {
+  padding-left: 30%;
+  padding-right: 10%;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.dias > h2 {
+  font-size: 90px;
+  text-shadow: black 0.1em 0.1em 0.4em;
+}
+.dias {
+  text-align: center;
+  font-size: 10px;
+}
+.news > h5 {
+  font-size: 100px;
+  text-transform: uppercase;
+  color: white;
+  padding-left: 30%;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.dias {
+  padding-right: 20px;
+}
+.noticias > .dias > p {
+  color: red;
+  font-size: 30px;
+}
+.negro {
+  font-size: 30px;
+}
+.normal {
+  font-size: 25px;
+}
+.boton {
+  text-align: center;
+  padding: 10px 100px;
+  margin: 20px 0 0 400px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  box-shadow: 0 20px 20px 10px black;
+  font-weight: bold;
+}
+.boton:hover{
+  background-color: black;
+  box-shadow: 0px 15px 15px 10px red;
+  transition-duration: 0.5s;
+
+}
+
+.guitarrista {
+  background-image: url(../GUITARRISTA.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  
+ 
+
+  padding-top: 100px;
+}
+.año {
+  text-shadow: black 0.1em 0.1em 0.4em;
+  padding-left: 100px;
+}
+
+.recorrido-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 20px;
+  padding-top: 50px;
+  text-align: left;
+  margin: 40px 100px;
+  border-top: red 5px dashed;
+}
+
+button {
+  font-size: 30px;
+}
+.recorrido-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 22px;
+  padding-top: 50px;
+  text-align: left;
+  margin: 40px 100px;
+  border-top: red 5px dashed;
+}
+.recorrido-3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 22px;
+  padding-top: 50px;
+  text-align: left;
+  margin: 40px 100px;
+  border-top: red 5px dashed;
+}
+.recorrido-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 22px;
+  padding-top: 50px;
+  text-align: left;
+  margin: 40px 100px;
+  border-top: red 5px dashed;
+}
+.recorrido-5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 22px;
+  padding-top: 50px;
+  text-align: left;
+  margin: 40px 100px;
+  border-top: red 5px dashed;
+}
+.recorrido-6 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 22px;
+  padding-top: 50px;
+  text-align: left;
+  margin: 40px 100px;
+  border-top: red 5px dashed;
+}
+.recorrido-7 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 22px;
+  padding: 50px 0;
+  text-align: left;
+  margin: 0 100px;
+  border-top: red 5px dashed;
+}
+.recorrido-8 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 30px;
+  padding-top: 50px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 20px 100px;
+  border-top: red 5px dashed;
+}
+.rojo > a {
+  color: white;
+}
+.recorrido-2>.rojo>:hover{
+  background-color:black ;
+  transition-duration: 0.3s;
+  
+}
+.rojo-1 > a {
+  color: white;
+}
+.rojo {
+  background-color: red;
+  padding: 10px 40px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 2px 2px 20px black;
+  font-size: 15px;
+}
+.zz{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  text-align: center;
+  background-color: blue;
+}
+
+.rojo-1:hover{
+background-color: black;
+transition-duration: 0.5s;
+}
+.zz>.rojo:hover{
+background-color: black;
+transition-duration: 0.5s;
+}
+.rojo-1 {
+  background-color: red;
+  color: white;
+  padding: 10px 100px;
+  width: 100%;
+  font-size: 20px;
+}
+.boto {
+  padding-bottom: 100px;
+  
+
+}
+.año {
+  font-size: 40px;
+}
+.ver {
+  padding: 20px 50px;
+  color: white;
+  background-color: red;
+  box-shadow: 0 20px 20px 10px black;
+  border-color: black;
+}
+.ver:hover{
+background-color: black;  
+box-shadow: 0px 15px 15px 10px red;
+transition-duration: 0.5s;
+}
+
+.tienda {
+  background-image: url(../tienda.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  
+}
+.tienda > h5 {
+  font-size: 80px;
+  color: white;
+  margin-bottom: 50px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.button {
+  margin-bottom: 50px;
+}
+.tienda-1 {
+  padding: 10px 30px;
+  margin-right: 50px;
+  text-transform: capitalize;
+  border: outset 10px;
+  border-color: red;
+}
+.tienda-2 {
+  margin-right: 50px;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  border: outset 10px;
+  border-color: red;
+}
+.tienda-3 {
+  padding: 10px 30px;
+  text-transform: capitalize;
+  border: outset 10px;
+  border-color: red;
+}
+.ir {
+  font-size: 20px;
+  margin-bottom: 80px;
+  padding: 20px 100px;
+  color: white;
+  background-color: red;
+  box-shadow: 0px 20px 20px 10px black;
+}
+.ir:hover{
+  background-color: black;
+  box-shadow: 0px 15px 15px 10px red;
+  transition-duration: 0.5s;
+}
+
+.recorrido {
+  display: flex;
+}
+
+.reloj {
+  background-image: url(../reloj.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+
+}
+.video {
+margin: 0 30% 0 60%;
+font-size: 50%;
+height: 500px;
+width:500px;
+}
+.videos{
+  margin: 0 30% 0 60%;
+  width: 500px;
+  color: white;
+  background-color: red;
+  box-shadow: 0px 10px 10px 10px black;
+  animation-duration: 0.5ms;
+}
+.videos:hover{
+  background-color: black;
+  box-shadow: 0px 10px 10px 10px red;
+  transition-duration: 0.5s;
+}
+.end {
+  background-image: url(../hoja-rasgada.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  font-style: italic;
+}
+.end-2{
+  padding-top: 20px;
+  color: white;
+  width: 100%;
+}
+.end-3{
+display: flex;
+}
+.end>p{
+  font-size: 10px;
+}
+.poli{
+text-transform: uppercase;
+font-size: 20px;
+}
+.poli>a:hover{
+  color: red;
+  transition-duration: 0.5s;
+}
+.poli>a{
+  color: white;
+}
+.cont{
+  padding-right: 10px;
+  font-size: 20px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+.cont>a:hover{
+  color: red;
+  transition-duration: 0.3s;
+}
+.cont>a{
+color: white;
+}
+.regi{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.regi>a:hover{
+  color: red;
+  transition-duration: 0.3s;
+}
+.regi>a{
+  color: white;
+}
